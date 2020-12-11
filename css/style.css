@@ -1,0 +1,524 @@
+.* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+/* Phone size first size 
+@media screen and (max-width:320px)
+{
+    body
+    {
+        margin: 0px;
+        padding: 0px;
+        font-size: 40%;
+        background-color: blue;
+    }
+    
+    h1
+    {
+        font-size: 2em;
+    }
+    
+    p
+    {
+        font-size: 1em;
+    }
+}*/
+
+/* Second size 
+@media screen and (min-width:320px) and (max-width:480px)
+{
+   
+    
+}
+*/
+
+/* thirth size 
+@media screen and (min-width:480px) and (max-width:800px)
+{
+    
+}
+*/
+
+/* Fourth size 
+@media screen and (min-width:800px) and (max-width:1200px)
+{
+   
+}
+*/
+
+/* fifth size */
+@media screen and (min-width:1200px) {
+
+    /* beging the min-width:1200px configuration*/
+    /* Beging the global body configurations */
+    body#inicio {
+        margin: 0px;        
+        padding: 0px;
+        background-image: url(../image/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        font-size: 100%;
+    }
+
+    /* Finish the global body configurations*/
+
+
+    /* Beging the navigation bar configurations*/
+    /* Beging the header (global navigation bar) configurations*/
+    .header {
+        position: fixed;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0px;
+        padding: 0px;
+        width: 90%;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;
+    }
+    /* Finish the header (global navigation bar) configurations*/
+
+
+    /* Beging the gloval menu configurations*/
+    .object-menu {
+        list-style: none;
+    }
+    /* Finish the gloval menu configurations*/
+
+    
+    /* Beging the left side menu configurations*/
+    #left-menu {
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        height: 60px;
+        display: inline-block;
+    }
+    /* Finish the left side menu configurations*/
+
+
+    /* Beging the right side menu configurations*/
+    #right-menu {
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        height: 60px;
+        float: right;
+        display: inline-flex;
+    }
+
+    /* Finish the right side menu configurations*/
+
+    /* Beging the links configurations*/
+    a {
+        text-decoration: none;
+    }
+
+    /* Finish the links configurations*/
+
+    /* Beging the image bar configurations*/
+    #isc-icon {
+        width: 10%;
+        height: 100%;
+        margin-left: 20px;
+        padding: 0px;
+        border-radius: 50%;
+        float: left;
+        background-image: url(../image/IMG_20200308_143056.jpg);
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+
+    /* Finish the image bar configurations*/
+
+    /* Beging the name configufooterlnkrations*/
+
+    #isc-nombre {
+        padding: 0px;
+        padding-top: 15px;
+        margin-left: 5px;
+        width: 85%;
+        height: 100%;
+        color: #005380;
+        font-family: roboto;
+        font-size: 1.3em;
+        font-weight: 500;
+        float: right;
+    }
+
+    #isc-nombre:hover {
+        color: white;
+    }
+
+    /* Finish the name configurations*/
+
+    /* Beging the name section menu configurations*/
+
+    #items-menu {
+        display: inline-flex;
+        margin-top: 0px;
+        align-content: flex-end;
+        padding: 0px;        
+        width: 20%;
+        height: 60px;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    #items-menu:hover
+    {
+        background-color: rgba(0,0,0,.5);
+        color: blue;
+    }
+    
+    #link-bar
+    {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 35px;
+        width: 100%;   
+        height: 100%;
+        color: #ffffff;  
+        font-family: roboto;
+        font-size: 1em;
+        font-weight: 450;
+        text-align: center;
+    }
+
+    #link-bar:hover {
+        color: #50c4f7;
+    }
+
+    /* Finish the name section menu configurations*/
+
+    /* Finish the navigation bar configurations */
+
+       
+    .contentbgopacy
+    {
+        float: right;
+        position: relative;
+        margin: 0px;
+        margin-top: 100px;
+        margin-right: 70px;
+        padding: 20px;
+        width: 500px;
+        height: 450px;
+        background-color: rgba(86,90,97,.6);
+        color: white;
+        font-family: sans-serif;
+        border-radius: 5px;
+    }
+    
+    .services-s
+    {
+        list-style: none;
+    }
+    
+    #services-start a
+    {
+        font-family: sans-serif;
+        font-size: 1.5em;
+        color: #ebab4d;
+    }
+    
+    
+    /* End the start page*/
+        
+    /* Beging the proyects page*/
+    
+    
+    body#proyects
+    {
+        position: relative;
+        margin: 0px;        
+        padding: 0px;
+        font-size: 100%;
+        background-image: url(../image/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    
+    /* Beging the title of proyect page*/
+
+    #titleproy
+    {   
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    #titleproy h2
+    {
+        font-family: sans-serif;
+        font-size: 2.5em;
+        color: #00A7FF;
+        font-style: normal;
+        font-weight: 1200;
+    }
+    
+    /* Finish the title of proyect page*/
+    
+    
+    /* Beging the carrusel*/
+
+    .carrusel
+    {
+        position: fixed;
+        width: 40%;
+        height: 40%;
+        margin-top: 5%;
+        border: 5px solid gray;
+        border-radius: 5px;
+        margin-left: 30%;
+        margin-right: auto;     
+        display: none;
+    }
+    /* Finish the carrusel*/
+
+    #proyectskind
+    {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        width: 25%;
+        height: 300px;  
+        margin-left: 6.2%;
+        background-color: rgba(86,90,97,.7);
+    }
+    
+    #proyectskind:hover
+    {
+        background-color: rgba(86,90,97,.9);
+        
+    }
+
+    
+    #proyectskind h3
+    {
+        color: #ebab4d;
+        text-align: center;
+        font-family: roboto;
+        font-size: 1.5em;
+    }
+    
+    
+    /* Beging the footer*/
+    footer
+    {     
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0px;
+        padding: 0px;
+        width: 90%;
+        height: 60px;
+        position: fixed;
+        bottom: 0px;        
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    
+    #footer-container
+    {
+        width: 100%;
+        height: 60px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .content-footer
+    {
+        margin: 0px;
+        padding: 20px;        
+        display: inline-flex;
+    }
+    
+    #content-footer
+    {
+        width: 65%;
+    }
+    
+    .items-footer
+    {
+        height: 20px;
+        padding: 5px;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    
+    .items-footer a
+    {
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        color: #005380;
+    }
+    
+    .items-footer a:hover
+    {
+        font-family: sans-serif;
+        font-size: 1em;
+        color: #ebab4d;
+    }
+    
+    #credits
+    {
+        width: 70%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    
+    #credits-bg
+    {
+        width: 30%;
+        margin: 0px;
+        padding: 0px;
+        padding-right: 10px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+    }
+    
+    #credits-bg span
+    {
+        margin-right: 5%;
+        width: 95%;
+        text-align: end;
+    }
+    #credit-unsplash
+    {        
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+        color: #ebab4d;
+    }
+  
+    #credit-unsplash:hover
+    {
+        color: #005380;
+    }
+    /* Finish the footer*/
+
+    /* Finish the proyects page*/
+    
+    /* Beging the skills page*/
+    body#skills
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .body-skills
+    {
+        width: 70%;
+        height: 70%;
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-right: auto;
+        position: absolute;
+        background-color: rgba(86,90,97,.4);
+    }  
+    
+     #titleskills
+    {   
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    #titleskills h2
+    {
+        font-family: sans-serif;
+        font-size: 2.5em;
+        color: #00A7FF;
+        font-style: normal;
+        font-weight: 1200;
+    }
+    
+    .box-button-skills
+    {
+        width: 50%;
+        height: 8%;
+        margin-left: 30%;
+        margin-top: 9%;
+        position: absolute;
+    }
+    .btn-skills
+    {
+        width: 40%;
+        height: 100%;
+        border-radius: 5px;
+        border: 0px;
+    }
+    
+    #btn-hard-s
+    {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        background-color: #0085CC;
+    }
+    
+    #btn-soft-s
+    {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        background-color: #ebab4d;
+    }
+    
+    
+    /* Finish the skills page*/
+    
+    
+    /* Beging the about page*/
+    
+    body#about
+    {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(../image/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        font-size: 100%;
+    }
+
+    /* Finish the about page*/
+    
+    /* Beging the contact page*/
+    
+    body#contact
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* Finish the contact page*/
+    
+    /* Finish the min-width:1200px configuration*/
+}
