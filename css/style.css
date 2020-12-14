@@ -420,6 +420,8 @@
 
     /* Finish the proyects page*/
     
+    
+    
     /* Beging the skills page*/
     body#skills
     {
@@ -442,10 +444,9 @@
     {   
         padding: 0px;
         width: 100%;
-        height: 100%;
-        position: relative;
-        float: left;
-        margin-top: 0px;
+        height: 8%;
+        position: absolute;
+        margin: 0 auto;
         text-align: center;
     }
     
@@ -460,36 +461,47 @@
     
     .box-button-skills
     {
-        width: 50%;
+        width: 45%;
         height: 8%;
-        margin-left: 30%;
+        margin: 0 auto;
         margin-top: 9%;
-        position: absolute;
+        padding: 0px;
+        position: relative;
     }
-    .btn-skills
-    {
-        width: 40%;
-        height: 100%;
-        border-radius: 5px;
-        border: 0px;
-    }
+   
     
     #btn-hard-s
     {
+        width: 49%;
+        padding: 0px;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
         position: relative;
+        border: 0px solid #0085CC;
+        border-radius: 5px;
         background-color: #0085CC;
     }
     
     #btn-soft-s
     {
+        width: 50%;
+        height: 100%;
+        padding: 0px;
+        border-radius: 5px;
+        border: 0px solid #ebab4d;
         margin-left: auto;
         margin-right: auto;
         position: relative;
         background-color: #ebab4d;
     }
     
+    #lnk-btn
+    {
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+    }
     
     /* Finish the skills page*/
     
