@@ -49,6 +49,9 @@
 }
 */
 
+    /*  -----------------------------------------------------------------------------------  */
+
+
 /* fifth size */
 @media screen and (min-width:1200px) {
 
@@ -80,6 +83,7 @@
         height: 60px;
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 5px;
+        z-index: 1;
     }
     /* Finish the header (global navigation bar) configurations*/
 
@@ -237,6 +241,10 @@
     
     /* End the start page*/
         
+
+    /*  -----------------------------------------------------------------------------------  */
+
+
     /* Beging the proyects page*/
     
     
@@ -321,6 +329,7 @@
         font-size: 1.5em;
     }
     
+    /*  -----------------------------------------------------------------------------------  */
     
     /* Beging the footer*/
     footer
@@ -426,23 +435,34 @@
     /* Finish the proyects page*/
     
     
+    /*  -----------------------------------------------------------------------------------  */
     
     /* Beging the skills page*/
-    body#skills
+
+    /*  Beging the Body configurations  */
+    body#skills                                                                     /* verify the reference of background image credits  */
     {
         margin: 0px;
         padding: 0px;
+        background-image: url(../image/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+        background-size: cover;
     }
     
+    /*  Finish the Body configurations  */
+
+    /**/
+
+    /*  Beging the container skills  */
     .body-skills
     {
         width: 70%;
-        height: 70%;
-        margin-top: 7%;
+        height: 75%;
+        margin-top: 6%;
         margin-left: 15%;
         margin-right: auto;
         position: absolute;
-        background-color: rgba(86,90,97,.4);
+        background-color: rgba(86,90,97,.7);
+        border-radius: 5px;
     }  
     
      #titleskills
@@ -511,6 +531,12 @@
         background-color: #8f8f8f;
         color: #005380;
     }
+
+    #lnk-btn-hard:focus
+    {
+        background-color: #ffffff;
+        color: #005380;
+    }
     #lnk-btn-soft
     {
         background-color: #ebab4d;
@@ -523,13 +549,226 @@
         background-color: #8f8f8f;
         color: #ffce87;
     }
+
+    #lnk-btn-soft:focus
+    {
+        background-color: #ffffff;
+        color: #005380;
+    }
   
+    .box-skills
+    {
+        width: 80%;
+        height: 320px;
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 1%;
+        border-radius: 5px;
+    }
+
+    .title-hs-skills
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .skills-container
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 2%;
+        display: inline-block;
+        list-style: none;
+    }
+
+    #hard-skills-container
+    {
+        display: none;
+    }
+    #soft-skills-container
+    {
+    }
+
+    .skills
+    {
+        float: right;
+        width: 50%;
+        height: 100%;
+        margin-right: 3%;
+        border: 2px solid #ffce87;
+        border-radius: 5px;
+    }
+
+   .h-skills
+    {
+        margin-top: 7%;
+        list-style: none;
+    }
+
+    .s-skills
+    {
+        margin-top: 7%;
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .h-skills li
+    {
+        display: block;
+        padding: 5%;
+        margin-left: 5%;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        color: #ffce87;
+    }
+
+    .s-skills li
+    {
+        display: block;
+        padding: 5%;
+        margin-left: 5%;
+        font-family: sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        color: #ffce87;
+    }
+
+    #skills-h
+    {
+        color: #ffffff;
+    }
+
+
+    #skills-s
+    {
+        color: #ffffff;
+    }
+
+    /* Beging the Hard skills subskills */
+
+    #so
+    {
+        display: none;
+    }
+
+    #progleng
+    {
+        display: none;
+    }
+
+    #db
+    {
+        display: none;
+    }
+
+    #fandl
+    {
+        display: none;
+    }
+
+    #ide
+    {
+        display: none;
+    }
+
+    #vc
+    {
+        display: none;
+    }
+
+    #leng
+    {
+        display: none;
+    }
+
+    #prog
+    {
+        display: none;
+    }
+    /* Finish the Hard skills subskills */
+
+
+
+    /* Beging the Soft skills subskills */
+
+    #comunication
+    {
+        display: none;
+    }
+
+    #time-manage
+    {
+        display: none;
+    }
+
+    #Teamwork
+    {
+        display:  none;
+    }
+
+    #Adaptability
+    {
+        display: none;
+    }
+
+    #Creativity
+    {
+        display: none;
+    }
+
+    #Work-ethic
+    {
+        display: ;
+    }
+
+    #Leadership
+    {
+        display: none;
+    }
+
+    #Problem
+    {
+        display: none;
+    }
+
+    /* Finish the Soft skills subskills */
+
+
+
+    #h-subskills
+    {
+        width: 30%;
+        height: 15%;
+        margin: 0px auto;
+        margin-left: 7%;
+        display: inline-block;   /* a qui me quedé */
+    }
+
+    #s-subskills
+    {
+        width: 30%;
+        height: 15%;
+        margin: 0px auto;
+        margin-left: 7%;
+        display: inline-block;   /* a qui me quedé */
+    }
+
+    /*  Finish the container skills  */
+
     
     /* Finish the skills page*/
     
+    /*  -----------------------------------------------------------------------------------  */
+
     
     /* Beging the about page*/
     
+    /*  Beging the global configuration of the body about page  */
     body#about
     {
         margin: 0px;
@@ -541,9 +780,16 @@
         position: relative;
         font-size: 100%;
     }
+    /*  Finish the global configuration of the body about page  */
+
+
 
     /* Finish the about page*/
     
+
+        /*  -----------------------------------------------------------------------------------  */
+
+
     /* Beging the contact page*/
     
     body#contact
@@ -555,6 +801,19 @@
     /* Finish the contact page*/
     
     
+        /*  -----------------------------------------------------------------------------------  */
+
+
+    /*  Beging the credits page */
+
+    body#contact
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    /*  finish the credits page */
     
     /* Finish the min-width:1200px configuration*/
 }
