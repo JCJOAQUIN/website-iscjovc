@@ -5,7 +5,7 @@
 }
 
 
-/* Phone size first size 
+/* Phone size first size
 @media screen and (max-width:320px)
 {
     body
@@ -15,37 +15,37 @@
         font-size: 40%;
         background-color: blue;
     }
-    
+
     h1
     {
         font-size: 2em;
     }
-    
+
     p
     {
         font-size: 1em;
     }
 }*/
 
-/* Second size 
+/* Second size
 @media screen and (min-width:320px) and (max-width:480px)
 {
-   
-    
+
+
 }
 */
 
-/* thirth size 
+/* thirth size
 @media screen and (min-width:480px) and (max-width:800px)
 {
-    
+
 }
 */
 
-/* Fourth size 
+/* Fourth size
 @media screen and (min-width:800px) and (max-width:1200px)
 {
-   
+
 }
 */
 
@@ -58,7 +58,7 @@
     /* beging the min-width:1200px configuration*/
     /* Beging the global body configurations */
     body#inicio {
-        margin: 0px;        
+        margin: 0px;
         padding: 0px;
         background-image: url(../image/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg);
         background-size: cover;
@@ -94,7 +94,7 @@
     }
     /* Finish the gloval menu configurations*/
 
-    
+
     /* Beging the left side menu configurations*/
     #left-menu {
         margin: 0px;
@@ -136,8 +136,9 @@
         background-image: url(../image/IMG_20200308_143056.jpg);
         background-size: cover;
         background-position: center;
-        
+
     }
+
 
 
     /* Finish the image bar configurations*/
@@ -170,29 +171,29 @@
         display: inline-flex;
         margin-top: 0px;
         align-content: flex-end;
-        padding: 0px;        
+        padding: 0px;
         width: 20%;
         height: 60px;
         align-items: center;
         border-radius: 5px;
         transition: all 0.5s;
     }
-    
+
     #items-menu:hover
     {
         background-color: rgba(0,0,0,.5);
         color: blue;
-        
+
     }
-    
+
     #link-bar
     {
         margin: 0px;
         padding: 0px;
         padding-top: 35px;
-        width: 100%;   
+        width: 100%;
         height: 100%;
-        color: #ffffff;  
+        color: #ffffff;
         font-family: roboto;
         font-size: 1em;
         font-weight: 450;
@@ -201,15 +202,15 @@
     }
 
     #link-bar:hover {
-        color: #50c4f7;        
+        color: #50c4f7;
     }
 
     /* Finish the name section menu configurations*/
 
-    
+
     /* Finish the navigation bar configurations */
 
-       
+
     .contentbgopacy
     {
         float: right;
@@ -225,33 +226,33 @@
         font-family: sans-serif;
         border-radius: 5px;
     }
-    
+
     .services-s
     {
         list-style: none;
     }
-    
+
     #services-start a
     {
         font-family: sans-serif;
         font-size: 1.5em;
         color: #ebab4d;
     }
-    
-    
+
+
     /* End the start page*/
-        
+
 
     /*  -----------------------------------------------------------------------------------  */
 
 
     /* Beging the proyects page*/
-    
-    
+
+
     body#proyects
     {
         position: relative;
-        margin: 0px;        
+        margin: 0px;
         padding: 0px;
         font-size: 100%;
         background-image: url(../image/andrew-neel-cckf4TsHAuw-unsplash.jpg);
@@ -259,13 +260,13 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    
-    
-    
+
+
+
     /* Beging the title of proyect page*/
 
     #titleproy
-    {   
+    {
         padding: 0px;
         width: 100%;
         height: 100%;
@@ -274,7 +275,7 @@
         margin-top: 60px;
         text-align: center;
     }
-    
+
     #titleproy h2
     {
         font-family: sans-serif;
@@ -283,10 +284,10 @@
         font-style: normal;
         font-weight: 1200;
     }
-    
+
     /* Finish the title of proyect page*/
-    
-    
+
+
     /* Beging the carrusel*/
 
     .carrusel
@@ -298,7 +299,7 @@
         border: 5px solid gray;
         border-radius: 5px;
         margin-left: 30%;
-        margin-right: auto;     
+        margin-right: auto;
         display: none;
     }
     /* Finish the carrusel*/
@@ -309,18 +310,18 @@
         display: inline-block;
         z-index: 1;
         width: 25%;
-        height: 300px;  
+        height: 300px;
         margin-left: 6.2%;
         background-color: rgba(86,90,97,.7);
     }
-    
+
     #proyectskind:hover
     {
         background-color: rgba(86,90,97,.9);
-        
+
     }
 
-    
+
     #proyectskind h3
     {
         color: #ebab4d;
@@ -328,12 +329,12 @@
         font-family: roboto;
         font-size: 1.5em;
     }
-    
+
     /*  -----------------------------------------------------------------------------------  */
-    
+
     /* Beging the footer*/
     footer
-    {     
+    {
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 0px;
@@ -341,12 +342,12 @@
         width: 90%;
         height: 60px;
         position: fixed;
-        bottom: 0px;        
+        bottom: 0px;
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.4);
     }
-    
-    
+
+
     #footer-container
     {
         width: 100%;
@@ -354,19 +355,19 @@
         margin: 0px;
         padding: 0px;
     }
-    
+
     .content-footer
     {
         margin: 0px;
-        padding: 20px;        
+        padding: 20px;
         display: inline-flex;
     }
-    
+
     #content-footer
     {
         width: 65%;
     }
-    
+
     .items-footer
     {
         height: 20px;
@@ -374,7 +375,7 @@
         margin-left: 10px;
         display: inline-block;
     }
-    
+
     .items-footer a
     {
         font-family: sans-serif;
@@ -382,14 +383,14 @@
         font-weight: 700;
         color: #005380;
     }
-    
+
     .items-footer a:hover
     {
         font-family: sans-serif;
         font-size: 1em;
         color: #ebab4d;
     }
-    
+
     #credits
     {
         width: 70%;
@@ -399,7 +400,7 @@
         font-weight: 600;
         color: #ffffff;
     }
-    
+
     #credits-bg
     {
         width: 30%;
@@ -411,7 +412,7 @@
         font-size: 1em;
         font-weight: 600;
     }
-    
+
     #credits-bg span
     {
         margin-right: 5%;
@@ -419,13 +420,13 @@
         text-align: end;
     }
     #credit-unsplash
-    {        
+    {
         font-family: sans-serif;
         font-size: 1em;
         font-weight: 600;
         color: #ebab4d;
     }
-  
+
     #credit-unsplash:hover
     {
         color: #005380;
@@ -433,10 +434,10 @@
     /* Finish the footer*/
 
     /* Finish the proyects page*/
-    
-    
+
+
     /*  -----------------------------------------------------------------------------------  */
-    
+
     /* Beging the skills page*/
 
     /*  Beging the Body configurations  */
@@ -447,7 +448,7 @@
         background-image: url(../image/andrew-neel-cckf4TsHAuw-unsplash.jpg);
         background-size: cover;
     }
-    
+
     /*  Finish the Body configurations  */
 
     /**/
@@ -463,10 +464,10 @@
         position: absolute;
         background-color: rgba(86,90,97,.7);
         border-radius: 5px;
-    }  
-    
+    }
+
      #titleskills
-    {   
+    {
         padding: 0px;
         width: 100%;
         height: 8%;
@@ -474,7 +475,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    
+
     #titleskills h2
     {
         font-family: sans-serif;
@@ -483,7 +484,7 @@
         font-style: normal;
         font-weight: 1200;
     }
-    
+
     .box-button-skills
     {
         width: 45%;
@@ -493,21 +494,21 @@
         padding: 0px;
         position: relative;
     }
-    
+
     .btn-skills
     {
         position: relative;
         display: inline-block;
         width: 49%;
-        height: 100%;  
+        height: 100%;
     }
-    
-    
-    
+
+
+
     .btn-skills a
     {
         width: 100%;
-        height: 75%;   
+        height: 75%;
         padding-top: 5%;
         padding-bottom: 0px;
         margin: 0px;
@@ -518,14 +519,14 @@
         text-align: center;
         color: white;
     }
-   
+
     #lnk-btn-hard
     {
         background-color: #0085CC;
         border-radius: 5px;
         transition: all 0.8s;
     }
-    
+
     #lnk-btn-hard:hover
     {
         background-color: #8f8f8f;
@@ -543,7 +544,7 @@
         border-radius: 5px;
         transition: all 0.8s;
     }
-   
+
     #lnk-btn-soft:hover
     {
         background-color: #8f8f8f;
@@ -555,7 +556,7 @@
         background-color: #ffffff;
         color: #005380;
     }
-  
+
     .box-skills
     {
         width: 80%;
@@ -760,14 +761,14 @@
 
     /*  Finish the container skills  */
 
-    
+
     /* Finish the skills page*/
-    
+
     /*  -----------------------------------------------------------------------------------  */
 
-    
+
     /* Beging the about page*/
-    
+
     /*  Beging the global configuration of the body about page  */
     body#about
     {
@@ -775,23 +776,57 @@
         padding: 0px;
         background-image: url(../image/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
         position: relative;
         font-size: 100%;
     }
+
+    .about-information
+    {
+        width: 100%;
+        margin-top: 7%;
+        position: absolute;
+        padding: 3%;
+        background-color: rgba(86,90,97,.7)
+    }
     /*  Finish the global configuration of the body about page  */
 
 
+    .about-inf
+    {
+        display: inline-block;
+        width: 31%;
+        height: 100%;
+        background-color: rgba(255,255,255,.5);
+        margin: 10px auto;
+    }
 
+    #tit-inf
+    {
+        text-align: center;
+        color: #d17d00;
+    }
+
+    .inf
+    {
+        width: 100%;
+    }
+    .inf h4
+    {
+        display: inline-block;
+        margin: 5%;
+        font-family: roboto;
+        font-size: 1.2em;
+        color: #005380;
+    }
     /* Finish the about page*/
-    
+
 
         /*  -----------------------------------------------------------------------------------  */
 
 
     /* Beging the contact page*/
-    
+
     body#contact
     {
         margin: 0px;
@@ -799,8 +834,8 @@
     }
 
     /* Finish the contact page*/
-    
-    
+
+
         /*  -----------------------------------------------------------------------------------  */
 
 
@@ -814,6 +849,6 @@
 
 
     /*  finish the credits page */
-    
+
     /* Finish the min-width:1200px configuration*/
 }
