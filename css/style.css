@@ -81,7 +81,7 @@
         padding: 0px;
         width: 90%;
         height: 60px;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.8);
         border-radius: 5px;
         z-index: 1;
     }
@@ -151,10 +151,10 @@
         margin-left: 5px;
         width: 85%;
         height: 100%;
-        color: #005380;
+        color: #00A7FF;
         font-family: roboto;
         font-size: 1.3em;
-        font-weight: 500;
+        font-weight: 700;
         float: right;
         transition: all 0.8s;
     }
@@ -179,11 +179,26 @@
         transition: all 0.5s;
     }
 
-    #items-menu:hover
+    .npos
     {
-        background-color: rgba(0,0,0,.5);
-        color: blue;
+        background-color: #d17d00;
+    }
+    .npos:hover
+    {
+        background-color: #d17d00;
+    }
+    .npos #link-bar
+    {
+        color: #ffffff;
+    }
+    .npos #link-bar:hover
+    {
+        color: #ffffff;
+    }
 
+    .others-items:hover
+    {
+        background-color: rgba(0, 167, 255,.5);
     }
 
     #link-bar
@@ -787,7 +802,7 @@
         margin-top: 7%;
         position: absolute;
         padding: 3%;
-        background-color: rgba(86,90,97,.7)
+        background-color: rgba(86,90,97,.7);
     }
     /*  Finish the global configuration of the body about page  */
 
@@ -799,12 +814,14 @@
         height: 100%;
         background-color: rgba(255,255,255,.5);
         margin: 10px auto;
+        padding-top: 0px;
     }
 
     #tit-inf
     {
         text-align: center;
         color: #d17d00;
+        font-size: 1em;
     }
 
     .inf
@@ -813,11 +830,17 @@
     }
     .inf h4
     {
-        display: inline-block;
+        display: block;
         margin: 5%;
+        margin-top: 0;
         font-family: roboto;
         font-size: 1.2em;
         color: #005380;
+    }
+
+    #txtinf
+    {
+        width: 15%;
     }
     /* Finish the about page*/
 
